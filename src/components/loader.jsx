@@ -15,7 +15,7 @@ const spinner = function CircularIndeterminate() {
 
   return (
     <div className={classes.root}>
-      <CircularProgress style={ {margin:'0 auto'}} size={300} />
+      <CircularProgress style={ {margin:'0 auto'}} size={250} />
     </div>
   );
 }

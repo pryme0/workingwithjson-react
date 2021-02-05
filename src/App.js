@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import { useState,useEffect, useContext } from 'react';
+import { useState,useEffect} from 'react';
 import {BrowserRouter as Router,Switch,Route } from  'react-router-dom';
 import Axios from 'axios';
-import axios from 'axios';
+
 import Search from './components/search.jsx';
 import Display from './components/Display.jsx';
 import Spinner from './components/loader';

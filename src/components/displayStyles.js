@@ -18,7 +18,7 @@ import { FilterNone } from '@material-ui/icons';
       }
     },
     tableCell: {
-      maxWidth:'30px!important',
+      maxWidth:'30px',
         paddingRight: 4,
         paddingLeft: 4
       },
@@ -35,6 +35,9 @@ import { FilterNone } from '@material-ui/icons';
         alignItems: 'center',
         width: 300,
         border:'2px solid black'
+      },
+      margin: {
+        margin: theme.spacing(1),
       }
   }));
 
