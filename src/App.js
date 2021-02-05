@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { useState,useEffect} from 'react';
-import {BrowserRouter as Router,Switch,Route } from  'react-router-dom';
+import {BrowserRouter as Router,Route } from  'react-router-dom';
 import Axios from 'axios';
 
 import Search from './components/search.jsx';

@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
-import {Typography,InputBase,Table,TableBody,TableCell,IconButton,TableHead,TableRow,Paper ,withStyles,Grid} from '@material-ui/core';
+import React from 'react'
+import {TableCell,TableRow,withStyles} from '@material-ui/core';
 // import {SearchIcon} from '@material-ui/icons'
-import styles from './displayStyles';
+
 import { useHistory } from 'react-router-dom';
 import TableComp from './TableComponent';
 import Spinner from './loader';
